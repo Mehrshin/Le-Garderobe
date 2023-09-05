@@ -1,0 +1,65 @@
+.text-red {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-red-rgb), var(--bs-text-opacity)) !important;
+}
+
+/*@import './reset';
+@import './variables';
+
+@function weight($weight-name) {
+    @return map-get($map: $font-weights, $key: $weight-name );
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true){
+    @if $light-theme {
+        background-color: lighten($color: $primary-color, $amount: 100%);
+        color: darken($color: $text-xolor , $amount: 100%);
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+body {
+    background: $accent-color;
+    color: $text-xolor;
+    font-weight: map-get($map: $font-weights, $key: regular);
+}
+
+.main {
+
+    @include flexCenter(row);
+    width: 80%;
+    margin: 0 auto;
+
+    __paragraph {
+         font-weight: weight(regular);
+
+         &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+__paragraph2 {
+    @extend .main__paragraph;
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.light {
+    @include theme($light-theme: true);
+}
+
+*//*# sourceMappingURL=main.css.map */
